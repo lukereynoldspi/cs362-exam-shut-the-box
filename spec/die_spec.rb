@@ -3,12 +3,14 @@ require_relative '../lib/die'
 describe 'A die' do
 
   describe 'attributes' do
-    it 'TODO' do
-      skip
+    it 'has sides' do
+      die = Die.new
+      die.number_of_sides
     end
 
-    it 'TODO' do
-      skip
+    it 'has a face value' do
+      die = Die.new
+      die.face_value
     end
   end
 
