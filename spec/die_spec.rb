@@ -32,8 +32,9 @@ describe 'A die' do
   end
 
   describe '#to_s string representation' do
-    it 'TODO' do
-      skip
+    it 'has string representing face value' do
+      die = Die.new
+      expect(die.to_s).to eq("1")
     end
   end
 
