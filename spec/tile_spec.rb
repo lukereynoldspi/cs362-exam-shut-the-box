@@ -13,7 +13,8 @@ describe 'A tile' do
 
   describe '#up?' do
     it 'is up by default' do
-      tile = Tile.new
+      tile = Tile.new(1)
+      expect(tile.up?).to eq(true)
     end
   end
 
