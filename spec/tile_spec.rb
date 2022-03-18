@@ -46,7 +46,7 @@ describe 'A tile' do
       it 'shows a space within brackets' do
         tile = Tile.new(1)
         tile.flip
-        expect(tile.to_s).to eq("[]")
+        expect(tile.to_s).to eq("[ ]")
       end
     end
   end
