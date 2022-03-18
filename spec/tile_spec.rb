@@ -5,14 +5,15 @@ describe 'A tile' do
   describe 'attributes' do
 
     it 'has a value' do
-      skip
+      tile = Tile.new(1)
+      tile.value
     end
 
   end
 
   describe '#up?' do
     it 'is up by default' do
-      skip
+      tile = Tile.new
     end
   end
 
